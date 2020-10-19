@@ -1,0 +1,54 @@
+.vip-badges {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-bottom: 0;
+    border-right: 40px solid transparent;
+    margin-bottom: -40px;
+    border-top: 40px solid #5c41ad;
+}
+
+.vip-badges span {
+    position: absolute;
+    color: #fff;
+    top: -35px;
+    left: 5px;
+    font-size: 10px;
+    font-family: arial;
+    transform: rotate(-45deg);
+    font-weight: 700;
+}
+
+.years-old-badges {
+    position: absolute;
+    width: 70px;
+    top: 0;
+    right: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid #E0E2FF;
+}
+
+.years-old-badges span {
+    position: absolute;
+    color: #555;
+    top: -20px;
+    left: 2px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.friend-card:hover, .friend-card:focus {
+    background-color: #f1f1f1!important;
+    border-color: #5c41ad!important;
+}
+
+.friend-name {
+    font-size: 18px;
+}
+
+.friend-fullname {
+    font-size: 14px;
+}
