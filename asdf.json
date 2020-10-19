@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "cfbe438c-7d61-46af-87dd-6c6d28345738",
+		"name": "Scramble Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Single Word Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{scramble-api}}/wordcheck/test",
+					"host": [
+						"{{scramble-api}}"
+					],
+					"path": [
+						"wordcheck",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiple Words Check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{scramble-api}}/wordcheck",
+					"host": [
+						"{{scramble-api}}"
+					],
+					"path": [
+						"wordcheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Filtered",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "paginate",
+							"value": "20",
+							"description": "total per page",
+							"type": "text"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"description": "page number",
+							"type": "text"
+						},
+						{
+							"key": "search",
+							"value": "indra",
+							"description": "search by fullname",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{scramble-api}}/user/filtered",
+					"host": [
+						"{{scramble-api}}"
+					],
+					"path": [
+						"user",
+						"filtered"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Friends",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Indra Saswita",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{scramble-api}}/getfriends",
+					"host": [
+						"{{scramble-api}}"
+					],
+					"path": [
+						"getfriends"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
