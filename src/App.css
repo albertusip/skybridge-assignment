@@ -1,0 +1,33 @@
+button, input, select, button:active, input:active, select:active, button:focus, input:focus, select:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.font-weight-400 {
+    font-weight: 400!important;
+}
+
+.font-weight-500 {
+    font-weight: 500!important;
+}
+
+.font-weight-900 {
+    font-weight: 900!important;
+}
+
+.wh-fix-200 {
+    max-height: 190px!important;
+    max-width: 190px!important;
+    min-height: 190px!important;
+    min-width: 190px!important;
+}
+
+.w-max-700 {
+    max-width: 700px!important;
+}
+
+.section-title {
+    border-top: 2px solid #777;
+    padding-top: 10px;
+    color: #777;
+}
