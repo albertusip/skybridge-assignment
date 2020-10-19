@@ -1,0 +1,128 @@
+.btn-next {
+    color: #555!important;
+    background-color: #E0E2FF!important;
+    border-color: #E0E2FF!important;
+}
+
+.banner {
+    width: 100%!important;
+    padding: 100px 20px!important;
+    background-color: #5c41ad!important;
+    border-radius: 0px!important;
+}
+
+.banner h2 {
+    word-break: break-word;
+    line-height: 1.5;
+}
+
+.banner h5 {
+    color: hsla(0,0%,100%,.6);
+}
+
+.banner.focused input {
+    font-size: 50px;
+}
+
+.banner.focused .banner-question {
+    font-size: 20px;
+}
+
+.banner input {
+    transition: all .2s;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.banner .banner-question {
+    transition: .2s;
+    color: #fff;
+    font-size: 50px;
+}
+
+.banner input:focus {
+    outline: none;
+}
+
+.fadein-animation-h2 {
+    animation: h2-fadein 1s;
+    -moz-animation: h2-fadein 1s; /* Firefox */
+    -webkit-animation: h2-fadein 1s; /* Safari and Chrome */
+    -o-animation: h2-fadein 1s; /* Opera */
+}
+
+.fadein-animation-h5 {
+    animation: h5-fadein 1s;
+    -moz-animation: h5-fadein 1s; /* Firefox */
+    -webkit-animation: h5-fadein 1s; /* Safari and Chrome */
+    -o-animation: h5-fadein 1s; /* Opera */
+}
+
+@keyframes h2-fadein {
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:5.5rem;
+    }
+}
+@-moz-keyframes h2-fadein { /* Firefox */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:5.5rem;
+    }
+}
+@-webkit-keyframes h2-fadein { /* Safari and Chrome */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:5.5rem;
+    }
+}
+@-o-keyframes h2-fadein { /* Opera */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size: 5.5rem;
+    }
+}
+
+@keyframes h5-fadein {
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:1.25rem;
+    }
+}
+@-moz-keyframes h5-fadein { /* Firefox */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:1.25rem;
+    }
+}
+@-webkit-keyframes h5-fadein { /* Safari and Chrome */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size:1.25rem;
+    }
+}
+@-o-keyframes h5-fadein { /* Opera */
+    from {
+        font-size:0;
+    }
+    to {
+        font-size: 1.25rem;
+    }
+}
